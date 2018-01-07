@@ -202,3 +202,28 @@ button {
 	font-size: inherit;
 	line-height: inherit;
 }
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+	margin-left: 600px;
+	color: #868e96;
+}
+
+.flex a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.active {
+	color: #000 !important;
+}
+
+.nav {
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+}
